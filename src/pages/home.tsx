@@ -1,7 +1,8 @@
+import Button from "../components/Button";
+
 export function Home() {
   return (
     <>
-      <title>Romain Ducouret</title>
       <header>
         <span id="orangeCircle"></span>
         <span id="blueCircle"></span>
@@ -29,6 +30,12 @@ export function Home() {
           <p>Un site Web qui vous aide à attirer des visiteurs, qui représente parfaitement la vision de votre entreprise et dont vous êtes fier. Un focus sur un affichage dynamique que vous souhaitez continuer à regarder pendant des heures interminables.</p>
         </div>
         <img src="/portrait.svg" alt="Portrait" className="portrait" />
+      </section>
+
+      <section className="projects">
+        <h2>Projets que j'ai réalisés. En un rien de temps.</h2>
+        <h3>Une sélection de projets sur lesquels j'ai travaillé ces derniers mois. Bien sûr, tout ne s'arrête pas là. Il y en aura bien d'autres à venir bientôt.</h3>
+        <Button name="Parlons-en" backgroundColor="#141414" textColor="#FFFFFF" to="/letstalk"></Button>
       </section>
     </>
       
