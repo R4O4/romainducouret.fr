@@ -1,0 +1,9 @@
+# Hide files extensions in URL
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Home page
+
+DirectoryIndex view/index.php

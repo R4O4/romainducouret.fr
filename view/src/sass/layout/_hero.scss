@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: -webkit-fill-available;
+    border-radius: 80px;
+    box-shadow: $component-shadow;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .heroText {
+    color: #fff;
+
+    h1 {
+      font-size: $mobile-title-size;
+      font-weight: $desktop-title-weight;
+      margin-top: 54px;
+
+      span {
+        color: $primary-color;
+      }
+    }
+
+    p {
+      font-size: $mobile-subtitle-size;
+      font-weight: $desktop-subtitle-weight;
+      margin-top: 24px;
+    }
+
+    a {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      right: 24px;
+
+      img {
+        position: absolute;
+        width: 24px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.secondaryButton {
+  background-color: transparent;
+  border-radius: $button-boder-radius;
+  border: 2px solid #fff;
+  box-shadow: $component-shadow;
+  color: #fff;
+  text-decoration: none;
+  font-family: $font-primary;
+  font-size: $desktop-subtitle-size;
+  font-weight: 700;
+  height: 46px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0 20px;
+  img {
+    height: 24px !important;
+    width: 24px !important;
+    right: 10%;
+  }
+}
