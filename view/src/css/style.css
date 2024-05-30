@@ -145,6 +145,7 @@ header .menuBtn {
 .hero img {
   width: -webkit-fill-available;
   border-radius: 80px;
+  max-width: 400px;
   box-shadow: -15px 15px 23px -11px rgba(0, 0, 0, 0.25);
   object-fit: cover;
   object-position: center;

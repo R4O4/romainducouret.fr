@@ -5,6 +5,7 @@
   img {
     width: -webkit-fill-available;
     border-radius: 80px;
+    max-width: 400px;
     box-shadow: $component-shadow;
     object-fit: cover;
     object-position: center;
