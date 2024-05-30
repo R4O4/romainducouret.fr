@@ -74,6 +74,7 @@ header {
   background: rgba(33, 36, 48, 0.9);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(16.6px);
+  -webkit-backdrop-filter: blur(16.6px);
 }
 header .icon {
   color: #7A7FF4;
@@ -145,7 +146,7 @@ header .menuBtn {
 .hero img {
   width: -webkit-fill-available;
   border-radius: 80px;
-  max-width: 400px;
+  max-height: 400px;
   box-shadow: -15px 15px 23px -11px rgba(0, 0, 0, 0.25);
   object-fit: cover;
   object-position: center;
@@ -178,7 +179,7 @@ header .menuBtn {
 }
 
 .projects {
-  margin-top: 150px;
+  margin-top: 160px;
 }
 .projects h2 {
   font-size: 25px;
