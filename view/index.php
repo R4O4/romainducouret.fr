@@ -18,7 +18,9 @@
       <a href="#portfolio">Portfolio</a>
       <a href="#projects">Projets</a>
       <a href="#about">A propos</a>
-      <a href="#contact" class="primaryButton">Contactez-moi <img src="view\src\img\arrow-right.svg" alt="arrow down icon"></a>
+      <a href="#contact" class="primaryButton">Contact <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg></a>
     </nav>
   </header>
 

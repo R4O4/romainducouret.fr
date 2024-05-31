@@ -6,8 +6,8 @@ header {
   right: 0;
   align-items: center;
   justify-content: space-between;
-  padding: 24px;
-  z-index: 1000;
+  padding: 10px 24px;
+  z-index: 1;
   background: rgba(33, 36, 48, 0.9);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(16.6px);
@@ -23,7 +23,7 @@ header {
     position: absolute;
     right: 0;
     left: 0;
-    top: 108px;
+    top: 80px;
     background-color: lighten($background-color, 20%);
     flex-direction: column;
     gap: 20px;
@@ -37,26 +37,23 @@ header {
       text-align: center;
       font-size: 16px;
       font-weight: 700;
-      &:hover {
-        background-color: lighten($background-color, 10%);
-      }
+      transition-duration: $transition-duration;
     }
     .primaryButton {
       background-color: $primary-color;
       color: #fff;
-      width: 170px;
+      width: 110px;
       margin: 0 auto;
+      path {
+        transition-duration: $transition-duration;
+      }
     }
   }
   .open {
     display: flex;
-    animation: openMenu 0.5s ease-in-out;
+    animation: openMenu 400ms ease-in-out;
   }
 
-  .close {
-    display: none;
-    animation: closeMenu 0.5 ease-in-out;
-  }
   .menuBtn {
     background: none;
     border: none;
@@ -78,5 +75,30 @@ header {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 768px){
+  header {
+    padding: 0 15%;
+    .menuBtn {
+      display: none;
+    }
+    nav {
+      display: flex;
+      background: none;
+      position: initial;
+      flex-direction: row;
+      a:hover {
+        color: $primary-color;
+      }
+      .primaryButton:hover {
+        background-color: #fff;
+        color: $primary-color;
+        path {
+          stroke: $primary-color;
+        }
+      }
+    }
   }
 }

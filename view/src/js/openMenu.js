@@ -8,12 +8,10 @@ button.addEventListener('click', () => {
   // if menu is open, close it
   if (menu.classList.contains('open')) {
     menu.classList.remove('open');
-    menu.classList.add('close');
     menuBtnIco.src = 'view/src/img/menu.svg';
   } else {
     // if menu is closed, open it
     menu.classList.add('open');
-    menu.classList.remove('close');
     menuBtnIco.src = 'view/src/img/close.svg';
   }
 });
