@@ -117,27 +117,14 @@
           </div>
         </div>
       </section>
-      <section class="socials">
+      <section class="socials" id="contact">
         <div class="socials-container">
-          <a href=""><img src="view\src\img\linkedin.svg" alt="LinkedIn icon"></a>
-          <a href=""><img src="view\src\img\github.svg" alt="Github icon"></a>
+          <a href="https://www.linkedin.com/in/romain-ducouret-153792207/"><img src="view\src\img\linkedin.svg" alt="LinkedIn icon"></a>
+          <a href="https://github.com/R4O4"><img src="view\src\img\github.svg" alt="Github icon"></a>
         </div>
       </section>
     </div>
 
-  </section>
-
-  <span id="contact"></span>
-  <section class="contact">
-    <img src="view\src\img\portrait.png" alt="portrait">
-    <div class="contact-form">
-      <h2>Contactez-moi</h2>
-      <form action="view/send.php" method="post">
-        <input type="text" placeholder="Nom" class="secondaryButton" required maxlength="256" autocomplete="famlily-name">
-        <input type="email" placeholder="Email" required class="secondaryButton" maxlength="256" autocomplete="email">
-        <textarea placeholder="Message" required class="secondaryButton" maxlength="5000"></textarea>
-        <button class="primaryButton" class="primaryButton" >Envoyer</button>
-      </form>
   </section>
 
   <script src="view\src\js\openMenu.js"></script>
