@@ -55,6 +55,7 @@ header {
   }
 
   .menuBtn {
+    display: flex;
     background: none;
     border: none;
   }
@@ -100,5 +101,11 @@ header {
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: 1500px){
+  header {
+    padding: 0 25%;
   }
 }

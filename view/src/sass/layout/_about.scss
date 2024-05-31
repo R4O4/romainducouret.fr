@@ -4,30 +4,32 @@
   gap: 30px;
   margin-top: 30px;
 
-  .soft-skills {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    background: $card-background;
-    padding: 24px;
-    border-radius: 25px;
-
+  .about-title {
     h2 {
       font-size: $mobile-title-size;
       font-weight: $desktop-title-weight;
       color: #fff;
-      margin: 0;
+      margin-right: 24px;
+      margin-bottom: 0;
+      span {
+        color: $primary-color;
+      };
     }
-
+    
     p {
       font-size: $mobile-subtitle-size;
       font-weight: $desktop-subtitle-weight;
       color: #fff;
-      margin: 0;
+      margin-top: 10px;
+      margin-right: 80px;
     }
   }
 
-  .hard-skills {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .soft-skills, .hard-skills, .socials {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -35,7 +37,7 @@
     padding: 24px;
     border-radius: 25px;
 
-    h2 {
+    h3 {
       font-size: $mobile-title-size;
       font-weight: $desktop-title-weight;
       color: #fff;
@@ -47,6 +49,18 @@
       font-weight: $desktop-subtitle-weight;
       color: #fff;
       margin: 0;
+    }
+    .socials-container {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+      justify-content: space-around;
+      a {
+        transition-duration: $transition-duration;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
     }
 
     .progress-bar-container {
@@ -91,5 +105,84 @@
         }
       }
     }
+  }
+  }
+
+  
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    width: 70%;
+    margin: 80px auto;
+    .about-title {
+      h2 {
+        font-size: $desktop-title-size;
+        margin-right: 0;
+        span {
+          color: $primary-color;
+        }
+      }
+      p {
+        font-size: $desktop-subtitle-size;
+        margin-right: 0;
+      }
+    }
+    .about-container {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      height: 350px;
+      .soft-skills, .socials {
+        min-width: 150px;
+        h3 {
+          white-space: nowrap;
+        }
+      }
+      .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .socials-container {
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          width: -webkit-fill-available;
+          height: -webkit-fill-available;
+          a {
+            img {
+              width: 110px;
+            }
+          }
+        }
+      }
+      .hard-skills {
+        width: -webkit-fill-available;
+        .progress-bar-container {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          height: 250px;
+          .progress-bar {
+            justify-content: space-around;
+            width: 45%;
+            height: 30px;
+            p {
+              font-size: 8px;
+              margin-right: 0;
+            }
+            progress[value] {
+              height: 11px;
+              max-width: 150px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1500px) {
+  .about {
+    width: 50%;
   }
 }
