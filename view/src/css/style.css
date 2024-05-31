@@ -296,6 +296,52 @@ header .menuBtn {
   right: 15%;
 }
 
+@media screen and (min-width: 768px) {
+  .projects {
+    width: 70%;
+    margin: 150px auto 50px auto;
+  }
+  .projects h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .projects p {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .projects .projects-container {
+    margin-top: 40px;
+  }
+  .projects .projects-container .project {
+    flex-direction: row;
+    align-items: center;
+  }
+  .projects .projects-container .project .project-img {
+    width: 45%;
+    min-width: 45%;
+    min-height: 376px;
+  }
+  .projects .projects-container .project .project-texts {
+    margin: 70px;
+  }
+  .projects .projects-container .project .project-texts h3 {
+    font-size: 35px;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  .projects .projects-container .project .project-texts p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .projects .projects-container .project .project-texts a {
+    margin-top: 24px;
+    width: 120px;
+    padding: 0 10px;
+  }
+  .projects .projects-container .project .project-texts a img {
+    position: initial;
+  }
+}
 .about {
   display: flex;
   flex-direction: column;

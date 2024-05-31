@@ -24,7 +24,8 @@
     </nav>
   </header>
 
-  <section class="hero" id="portfolio">
+  <span id="portfolio"></span>
+  <section class="hero">
     <img src="view\src\img\portrait.png" alt="" class="me">
     <div class="heroText">
       <h1>Je suis Romain, <br /><span>Développeur Web</span></h1>
@@ -33,12 +34,13 @@
     </div>
   </section>
 
-  <section class="projects" id="projects">
+  <span  id="projects"></span>
+  <section class="projects">
     <h2>Jetez un œil à mes <span>derniers projets</span></h2>
     <p>Découvrez quelques uns de mes projets en cours</p>
     <div class="projects-container">
       <div class="project">
-        <img src="view\src\img\stockflow.jpg" alt="ZenithOS">
+        <img src="view\src\img\stockflow.jpg" alt="ZenithOS" class="project-img">
         <div class="project-texts">
           <h3>ZenithOS</h3>
           <p>ZenithOS est un projet ayant pour but de reproduire les fonctionnalités de base d’un système d’exploitation dans une interface web.</p>
@@ -46,7 +48,7 @@
         </div>
       </div>
       <div class="project">
-        <img src="view\src\img\stockflow.jpg" alt="ZenithOS">
+        <img src="view\src\img\stockflow.jpg" alt="ZenithOS" class="project-img">
         <div class="project-texts">
           <h3>StockFlow</h3>
           <p>StockFlow est un outil de gestion des ressources alimentaires pour les particuliers. Où il est possible de référencer les différents ingrédients et leurs propriétés ( DLC, Date d’entrée...)</p>
@@ -56,7 +58,8 @@
     </div>
   </section>
 
-  <section class="about" id="about">
+  <span id="about"></span>
+  <section class="about">
     <section class="soft-skills">
       <h2>Soft-skills</h2>
       <p>Minutieux</p>

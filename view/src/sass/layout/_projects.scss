@@ -57,3 +57,50 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .projects {
+    width: 70%;
+    margin: 150px auto 50px auto;
+    h2 {
+      font-size: $desktop-title-size;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-top: 0;
+      font-size: $desktop-subtitle-size;
+    }
+    .projects-container {
+      margin-top: 40px;
+      .project {
+        flex-direction: row;
+        align-items: center;
+        .project-img {
+          width: 45%;
+          min-width: 45%;
+          min-height: 376px;
+        }
+        .project-texts {
+          margin: 70px;
+          h3 {
+            font-size: $desktop-title-size;
+            margin-top: 0;
+            font-weight: 600;
+          }
+          p {
+            font-size: $desktop-subtitle-size;
+            margin: 0;
+          }
+          a {
+            margin-top: 24px;
+            width: 120px;
+            padding: 0 10px;
+            img {
+              position: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+}
