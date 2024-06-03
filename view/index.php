@@ -39,11 +39,11 @@
     <p>Découvrez quelques-uns de mes projets en cours</p>
     <div class="projects-container">
       <div class="project">
-        <img src="view/src/img/stockflow.jpg" alt="ZenithOS" class="project-img">
+        <img src="view/src/img/zenithos.jpg" alt="ZenithOS" class="project-img">
         <div class="project-texts">
           <h3>ZenithOS</h3>
           <p>ZenithOS est un projet ayant pour but de reproduire les fonctionnalités de base d’un système d’exploitation dans une interface web.</p>
-          <a href="" class="secondaryButton">Découvrir <img src="view/src/img/arrow-up-right.svg" alt="arrow up right icon"></a>
+          <a href="https://github.com/R4O4/ZenithOS" target="_blank" class="secondaryButton">Découvrir <img src="view/src/img/arrow-up-right.svg" alt="arrow up right icon"></a>
         </div>
       </div>
       <div class="project">
@@ -51,7 +51,7 @@
         <div class="project-texts">
           <h3>StockFlow</h3>
           <p>StockFlow est un outil de gestion des ressources alimentaires pour les particuliers, permettant de référencer les différents ingrédients et leurs propriétés (DLC, date d’entrée, etc.).</p>
-          <a href="https://github.com/R4O4/StockFlow" class="secondaryButton">Découvrir <img src="view/src/img/arrow-up-right.svg" alt="arrow up right icon"></a>
+          <a href="https://github.com/R4O4/StockFlow" target="_blank" class="secondaryButton">Découvrir <img src="view/src/img/arrow-up-right.svg" alt="arrow up right icon"></a>
         </div>
       </div>
     </div>
